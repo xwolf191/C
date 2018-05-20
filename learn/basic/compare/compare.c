@@ -7,7 +7,7 @@
 
 /*
  * 比较两个数的大小
- * @return bool
+ * @return
  */
 void compare(){
     puts("Please input two number\n");
