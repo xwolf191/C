@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "learn/basic/compare/compare.h"
+#include "learn/basic/multipletable/table.h"
 
 int main() {
-    compare();
+    multiple_talbe();
     return 0;
 }
