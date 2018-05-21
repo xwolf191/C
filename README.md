@@ -13,3 +13,4 @@ C99
 >* basic/hello  Hello World
 >* basic/compare  比较控制台输入数字大小
 >* basic/multipletable 九九乘法表
+>* basic/string  字符串
