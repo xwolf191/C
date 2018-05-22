@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#include "learn/basic/string/is_number.h"
+#include "learn/basic/point/basic.h"
 
 int main() {
     //char b[] = {'8','3','9','1','w'};
     char b[] = "893432w";
-    int res = is_number(b);
-    printf("res=%d\n",res);
+    basic_two();
+    //basic_core();
     return 0;
 }

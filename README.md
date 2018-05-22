@@ -14,3 +14,4 @@ C99
 >* basic/compare  比较控制台输入数字大小
 >* basic/multipletable 九九乘法表
 >* basic/string  字符串
+>* basic/point   指针部分
