@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "learn/basic/point/sum.h"
+#include "learn/basic/point/array.h"
 
 int main() {
-    print_sum();
+     array_point_basic();
     return 0;
 }
