@@ -15,6 +15,11 @@ struct Person{
     int state;
 
 };
+
+void format(struct Person *pPerson);
+
+void format1(struct Person *pPerson);
+
 void struct_basic(){
    struct Person person;
    person.age = 124;
@@ -26,4 +31,35 @@ void struct_basic(){
    struct Person person2={12,"laowang",43};
     printf("id=%d,name=%s,age=%d,state=%d\n",person2.id,person2.name,person2.age,person2.state);
 
+}
+/**
+ * @author 结构体指针
+ */
+void struct_point(){
+   struct Person person = {1323,"LaoWang",6};
+   //format(&person);
+   printf("id=%d,name=%s,age=%d,state=%d\n",person.id,person.name,person.age,person.state);
+   format1(&person);
+   printf("id=%d,name=%s,age=%d,state=%d\n",person.id,person.name,person.age,person.state);
+
+}
+/**
+ * 结构体指针两种方式
+ * struct->field
+ * @param person
+ */
+void format1(struct Person *person) {
+   if (person->age <10){
+      person->age = 10;
+   }
+}
+
+/**
+ *  (*strcut).field
+ * @param person
+ */
+void format(struct Person *person) {
+    if ((*person).age <10){
+       (*person).age = 10;
+    }
 }

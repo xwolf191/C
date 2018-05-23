@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "learn/basic/struct/struct_basic.h"
+#include "learn/basic/struct/typedef_struct.h"
 
 int main() {
-    struct_basic();
+    typed_struct();
     return 0;
 }

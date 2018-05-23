@@ -9,4 +9,6 @@
 
 void struct_basic();
 
+void struct_point();
+
 #endif //C_STRUCT_BASIC_H
