@@ -15,6 +15,7 @@ C99
 >* basic/multipletable 九九乘法表
 >* basic/string  字符串
 >* basic/point   指针相关
+>* basic/struct  结构体相关
 
 
 # 如有错误,请批评指正,望不吝赐教!
