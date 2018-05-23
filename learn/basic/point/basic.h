@@ -11,6 +11,10 @@ void basic_one();
 
 void basic_two();
 
+void basic_three();
+
+void basic_three_point();
+
 void basic_core();
 
 #endif //C_BASIC_H

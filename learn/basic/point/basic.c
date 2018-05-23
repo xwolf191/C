@@ -11,6 +11,11 @@
  * @author xwolf
  * @description 基础指针
  */
+
+void set_value(int i);
+
+void set_value_point(int *i);
+
 void basic_one(){
     int a = 1;
     int *b = &a;
@@ -35,6 +40,35 @@ void basic_two(){
     printf("*c=%x\n",*c);
     printf("**c=%d\n",**c);
 }
+
+/**
+ *  函数值传递
+ */
+void basic_three(){
+    int a = 1;
+    set_value(a);
+    printf("a=%d\n",a);//1
+}
+
+/**
+ * 指针函数
+ */
+void basic_three_point(){
+    int a = 1;
+    set_value_point(&a);
+    printf("a=%d\n",a);//10
+}
+
+
+void set_value(int i) {
+    i = 10;
+}
+
+void set_value_point(int *i) {
+    *i = 10;
+}
+
+
 
 /**
  * 明解C语言指针基础P229

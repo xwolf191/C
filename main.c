@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-#include "learn/basic/point/basic.h"
+#include "learn/basic/point/sum.h"
 
 int main() {
-    //char b[] = {'8','3','9','1','w'};
-    char b[] = "893432w";
-    basic_two();
-    //basic_core();
+    print_sum();
     return 0;
 }
