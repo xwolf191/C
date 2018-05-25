@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "learn/basic/struct/typedef_struct.h"
+#include "learn/basic/io/file_create_delete.h"
 
 int main() {
-    typed_struct();
+    mkdirs();
     return 0;
 }

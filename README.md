@@ -16,6 +16,6 @@ C99
 >* basic/string  字符串
 >* basic/point   指针相关
 >* basic/struct  结构体相关
+>* basic/io      I/O处理
 
-
-# 如有错误,请批评指正,望不吝赐教!
+# 如有错误,欢迎批评指正,望不吝赐教!
