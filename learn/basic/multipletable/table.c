@@ -2,6 +2,7 @@
  * @author xwolf
  * @description 九九乘法表
  */
+
 #include <stdio.h>
 #include "table.h"
 
